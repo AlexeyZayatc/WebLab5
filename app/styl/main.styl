@@ -1,0 +1,72 @@
+body
+	background-color #164B69
+	font-size 14px
+	font-family arial
+main
+	margin 0 auto
+	min-width 700px
+	min-height 700px
+	height 100%
+	background-color #E3E3E3
+	& p
+		text-align justify
+		line-height 2
+		word-spacing 2px
+		text-indent 1.5em
+.menu
+	margin 0 auto
+	padding-top 10px
+	font-weight bold
+	& ul
+		display flex
+		flex-wrap wrap
+		flex-direction row
+		justify-content space-around
+		list-style none
+		& li
+			height auto
+			display inherit
+			align-items stretch
+			padding 15px
+			color #DCDCDC
+			& a
+				text-decoration none
+				color black
+			& a:hover
+				color #DCDCDC
+		& li.Selected
+				background-color #DCDCDC
+.content
+	margin 15px
+	padding 0 5px
+.line-img
+	display flex
+	flex-direction row
+	& > img
+		float right
+		display inherit
+		flex-direction column
+	& > p
+		display inherit
+		flex-direction column
+		margin 5px 5px
+	& img.galery-3
+		flex-wrap wrap
+		margin 0 5px
+		width 33.3%
+.video
+	display flex
+	justify-content center
+	margin 0 auto
+	padding 15px
+.upper-block
+	margin 30 auto
+.bottom-blocks
+	justify-content center
+	.left-block 
+		display inline-block
+		width 60%
+	.right-block
+		display inline-block
+		width 39%
+		vertical-align top

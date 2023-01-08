@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Синтаксис CSS</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body> 
+    <main>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">CSS</a></li>
+          <li class="Selected"><a href="syntax.html">Синтаксис CSS</a></li>
+          <li><a href="#.html">Вставка CSS</a></li>
+          <li><a href="#.html">CSS текст</a></li>
+          <li><a href="fonts.html">CSS шрифт</a></li>
+          <li><a href="#.html">Блоки</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="upper-block">
+          <p>The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value, separated by a colon. Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+        </div>
+        <div class="line-img"><img class="galery-3" src="img/html.jpg"/><img class="galery-3" src="img/syntax.jpg"/><img class="galery-3" src="img/css2.jpg"/></div>
+        <div class="bottom-blocks">
+          <div class="left-block"> 
+            <p>If style sheets could only apply a declaration to each element of a Web page, they would be pretty useless. The real goal is to apply different declarations to different parts of the document. </p>
+            <p>CSS allows this by associating conditions with declarations blocks. Each (valid) declaration block is preceded by a selector which is a condition selecting some elements of the page. The pair selector-declarations block is called a ruleset, or often simply a rule.</p>
+          </div>
+          <div class="right-block"> 
+            <p>As an element of the page may be matched by several selectors, and therefore by several rules eventually containing a given property several times, with different values, the CSS standard defines which one has precedence over the other and must be applied: this is called the cascade algorithm.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

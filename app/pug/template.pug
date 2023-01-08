@@ -1,0 +1,19 @@
+mixin createMenupageName(page)
+	ul
+		each key, value in {'CSS':'index', 'Синтаксис CSS':'syntax', 'Вставка CSS':'#', 'CSS текст': '#', 'CSS шрифт': 'fonts', 'Блоки': '#'}
+			if value == page
+				li.Selected
+					a(href=key+'.html')=value
+			else
+				li
+					a(href=key+'.html')=value
+block variables
+<!DOCTYPE html>
+html
+	head
+		title #{title}
+		include MetaAndLink
+	body 
+		main
+			block content
+				block menu
