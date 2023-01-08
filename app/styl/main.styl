@@ -70,3 +70,21 @@ main
 		display inline-block
 		width 39%
 		vertical-align top
+@media(max-width:600px)
+	main
+		width auto
+		max-width 100%
+		min-height 100%
+		& .content
+			flex-grow 1
+			& .line-img
+				flex-direction column-reverse
+			& .galery-3
+				width auto
+	.menu
+		& ul
+			flex-flow column wrap
+			& li
+				align-self center
+	video
+		width 100%

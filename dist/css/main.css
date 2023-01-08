@@ -89,3 +89,28 @@ main p {
   width: 39%;
   vertical-align: top;
 }
+@media (max-width: 600px) {
+  main {
+    width: auto;
+    max-width: 100%;
+    min-height: 100%;
+  }
+  main .content {
+    flex-grow: 1;
+  }
+  main .content .line-img {
+    flex-direction: column-reverse;
+  }
+  main .content .galery-3 {
+    width: auto;
+  }
+  .menu ul {
+    flex-flow: column wrap;
+  }
+  .menu ul li {
+    align-self: center;
+  }
+  video {
+    width: 100%;
+  }
+}
