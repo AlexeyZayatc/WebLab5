@@ -1,2 +1,2 @@
 # gulp_lab
- css syntax 1 variant
+ css syntax 6 variant
